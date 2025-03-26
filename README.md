@@ -1,11 +1,11 @@
-# Code Comment Generator (LSTM)
+# Code Comment Generator (RNN)
 
-This project is a Python-based code comment generator using an **LSTM (Long Short-Term Memory)** model. It reads Python code and generates meaningful comments to improve code readability and documentation.
+This project is a Python-based code comment generator using an **RNN (Recurrent Neural Network)** model in **PyTorch**. It reads Python code and generates meaningful comments to improve code readability and documentation.
 
 ## 🚀 Features
-- Trains an LSTM model on Python code-comment pairs  
-- Generates relevant comments for input code  
-- Built using **TensorFlow** and **Keras**  
+- Trains an RNN model on Python code-comment pairs  
+- Uses tokenization and embedding layers for input processing  
+- Built using **PyTorch**  
 
 ## 🚀 Usage
 Run the Jupyter Notebook:
